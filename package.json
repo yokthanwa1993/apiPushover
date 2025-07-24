@@ -1,0 +1,28 @@
+{
+  "name": "pushover-test",
+  "version": "1.0.0",
+  "description": "Test script for Pushover API",
+  "main": "server-graphql.js",
+  "scripts": {
+    "test": "node test-pushover.js",
+    "start": "node server-graphql.js",
+    "dev": "nodemon server-graphql.js",
+    "rest": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "apollo-server-express": "^3.12.1",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["pushover", "api", "notifications", "graphql"],
+  "author": "",
+  "license": "MIT"
+} 
