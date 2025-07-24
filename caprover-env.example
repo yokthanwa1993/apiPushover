@@ -1,0 +1,14 @@
+# CapRover Environment Variables Template
+# Copy these to your CapRover app's Environment Variables section
+
+# Pushover API Configuration (Required)
+PUSHOVER_APP_TOKEN=your_actual_app_token_here
+PUSHOVER_USER_KEY=your_actual_user_key_here
+PUSHOVER_DEVICE=your_device_name_here
+
+# Server Configuration
+PORT=3000
+NODE_ENV=production
+
+# Optional: Custom app name for notifications
+APP_NAME=apiPushover

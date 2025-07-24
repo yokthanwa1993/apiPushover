@@ -7,7 +7,9 @@
     "test": "node test-pushover.js",
     "start": "node server-graphql.js",
     "dev": "nodemon server-graphql.js",
-    "rest": "node server.js"
+    "rest": "node server.js",
+    "build": "echo 'No build step required'",
+    "postinstall": "echo 'Installation complete'"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
